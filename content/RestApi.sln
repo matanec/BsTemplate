@@ -7,10 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{E
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeCheck|Any CPU = CodeCheck|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED1CA034-A808-4CC5-AAAD-744F0AAE68E3}.CodeCheck|Any CPU.ActiveCfg = CodeCheck|Any CPU
+		{ED1CA034-A808-4CC5-AAAD-744F0AAE68E3}.CodeCheck|Any CPU.Build.0 = CodeCheck|Any CPU
 		{ED1CA034-A808-4CC5-AAAD-744F0AAE68E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED1CA034-A808-4CC5-AAAD-744F0AAE68E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED1CA034-A808-4CC5-AAAD-744F0AAE68E3}.Release|Any CPU.ActiveCfg = Release|Any CPU

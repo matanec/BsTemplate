@@ -6,6 +6,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
+    string a = null;
     return Results.Ok(new 
     {
         Application = "Backstage Template",

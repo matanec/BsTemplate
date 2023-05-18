@@ -20,7 +20,8 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: ./content
     - name: Build
       run: dotnet build --no-restore --configuration CodeCheck
-      working-directory: .\content
+      working-directory: ./content
 

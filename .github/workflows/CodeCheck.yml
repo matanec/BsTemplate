@@ -22,5 +22,5 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore --configuration CodeCheck
-      working-directory: content
+      working-directory: .\content
 

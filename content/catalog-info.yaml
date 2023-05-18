@@ -2,6 +2,10 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Component
 metadata:
   name: ${{ values.name | dump }}
+  description: Simpliest Web API
+  tags:
+    - dotnet
+    - rest
 spec:
   type: service
   owner: sm

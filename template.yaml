@@ -6,7 +6,7 @@ metadata:
   title: My .NET REST API Template
   description: An example for Assession
 spec:
-  owner: user:guest
+  owner: sm
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are

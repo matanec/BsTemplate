@@ -1,7 +1,0 @@
-kind: Component
-metadata:
-  name: ${{ values.name | dump }}
-spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental

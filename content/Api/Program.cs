@@ -8,7 +8,7 @@ app.MapGet("/", () =>
 {
     return Results.Ok(new 
     {
-        Application = "Backstage Template",
+        Application = "Improved Backstage Template",
         ServerTime = DateTimeOffset.Now
     });
 });

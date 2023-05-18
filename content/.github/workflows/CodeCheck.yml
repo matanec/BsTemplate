@@ -5,7 +5,7 @@ name: PR Code Check for Service
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
